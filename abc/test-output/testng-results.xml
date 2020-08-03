@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47" started-at="2020-07-23T11:49:57 IST" finished-at="2020-07-23T11:49:57 IST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Test1.testing2()[pri:-1, instance:TestNGRelated.Test1@3cef309d]" name="testing2" class="TestNGRelated.Test1"/>
+        <method signature="Test2.chethanSwaroop()[pri:0, instance:TestNGRelated.Test2@32709393]" name="chethanSwaroop" class="TestNGRelated.Test2"/>
+      </group> <!-- SmokeTest -->
+      <group name="FuntionTest">
+        <method signature="Test1.placeMethod()[pri:0, instance:TestNGRelated.Test1@3cef309d]" name="placeMethod" class="TestNGRelated.Test1"/>
+      </group> <!-- FuntionTest -->
+      <group name="RegressionTest">
+        <method signature="Test1.testing2()[pri:-1, instance:TestNGRelated.Test1@3cef309d]" name="testing2" class="TestNGRelated.Test1"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Test12" duration-ms="47" started-at="2020-07-23T11:49:57 IST" finished-at="2020-07-23T11:49:57 IST">
+      <class name="TestNGRelated.Test2">
+        <test-method status="PASS" signature="chethanSwaroop()[pri:0, instance:TestNGRelated.Test2@32709393]" name="chethanSwaroop" duration-ms="1" started-at="2020-07-23T11:49:57 IST" finished-at="2020-07-23T11:49:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chethanSwaroop -->
+      </class> <!-- TestNGRelated.Test2 -->
+      <class name="TestNGRelated.Test1">
+        <test-method status="PASS" signature="testing2()[pri:-1, instance:TestNGRelated.Test1@3cef309d]" name="testing2" duration-ms="7" started-at="2020-07-23T11:49:57 IST" finished-at="2020-07-23T11:49:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing2 -->
+        <test-method status="PASS" signature="placeMethod()[pri:0, instance:TestNGRelated.Test1@3cef309d]" name="placeMethod" duration-ms="1" started-at="2020-07-23T11:49:57 IST" finished-at="2020-07-23T11:49:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeMethod -->
+      </class> <!-- TestNGRelated.Test1 -->
+    </test> <!-- Test12 -->
+  </suite> <!-- Suite -->
+</testng-results>
