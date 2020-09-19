@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="group related scenarios">
+	<test name="group test anme">
+	<groups>
+		<run>
+			<include name="FuntionTest"/>
+			<exclude name="SmokeTest"/>
+		</run>
+	</groups>
+		<classes>
+			<class name="TestNGRelated.Test1"/>
+		</classes>
+	
+	</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite:group of groups">
+	<test name="test:group of groups">
+		<groups>
+			<define name="group_1">
+				<include name="SmokeTest"></include>
+				<include name="FuntionTest"></include>
+			</define>
+			<run>
+				<include name="group_1"></include>
+				<include name="Basic"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGRelated.Test1"/>
+			<class name="TestNGRelated.Test2"/>
+		</classes>
+	</test>
+</suite>

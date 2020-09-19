@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test2">
+		<groups>
+			<define name="group1">
+				<include name="FuntionTest" />
+				<include name="SmokeTest" />
+			</define>
+			<run>
+				<include name="group1" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGRelated.Test1" />
+			<class name="TestNGRelated.Test2">
+				<methods>
+					<include name="chethan.*" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
