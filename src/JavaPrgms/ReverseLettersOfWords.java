@@ -24,6 +24,28 @@ public class ReverseLettersOfWords {
 
 	}
 	
+	//or we can use below also
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String st = "this is my first java prgm";
+
+		String str[] = st.split(" ");
+
+		for(int i=0;i<str.length;i++) {
+			char ch[]=str[i].toCharArray();
+			for(int j=str[i].length()-1;j>=0;j--) {
+				System.out.print(ch[j]);
+			}
+			System.out.print(" ");
+		}
+
+	}
+
+
+
+	
 
 
 }
