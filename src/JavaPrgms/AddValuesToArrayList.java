@@ -2,7 +2,7 @@ package JavaPrgms;
 
 import java.util.ArrayList;
 
-public class ArrayListEx {
+public class AddValuesToArrayList {
 
 	public static void main(String[] args) {
 		
