@@ -13,6 +13,19 @@ public class ExtractNumFromString {
 			System.out.println(s2);
 		}
 		//System.out.println(s2);
+		
+		//Another Way of doing
+		String str = "Str4ig23hdsdf5tnesd9cy9";
+		
+		char ch[] =str.toCharArray();
+		
+		for(int i=0; i<str.length();i++) {
+			Character c = new Character(ch[i]);
+			
+			if(c.isDigit(c)) {
+				System.out.println(c);
+			}
+		}
 	}
 
 }
