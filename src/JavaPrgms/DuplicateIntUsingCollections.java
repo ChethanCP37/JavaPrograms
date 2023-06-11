@@ -24,5 +24,13 @@ public class DuplicateIntUsingCollections {
 				System.out.println(v+" repeated "+ map.get(v));
 			}
 		}
+		
+		//We can use  entrySet also to display data as below 
+				for(Entry<Character, Integer> m : map.entrySet()){
+			Character c1 =m.getKey();
+			Integer i1 = m.getValue();
+			
+			System.out.println(c1+" present for "+i1+" times");
+		}
 	}
 }
